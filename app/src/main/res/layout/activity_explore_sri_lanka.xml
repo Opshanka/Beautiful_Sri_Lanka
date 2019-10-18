@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/topicMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ExploreTopic"
+            android:textAlignment="center"
+            android:text="@string/explore_provinces"
+            />
+
+        <TableLayout
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="150dp"
+                    android:background="@drawable/colombo"
+                    android:onClick="westernProvince"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/western_province"
+                    android:text="@string/western_province"
+                    style="@style/buttonTextStyle"
+                    />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="150dp"
+                    android:background="@drawable/kandy"
+
+
+                    android:onClick="centralProvince"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/central_province"
+                    android:text="@string/central_province"
+                    style="@style/buttonTextStyle"
+                    />
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="150dp"
+                    android:background="@drawable/kawudullanational"
+                    android:onClick="northcentralProvince"
+                    android:contentDescription="@string/north_central_province"
+                    android:text="@string/north_central_province"
+                    style="@style/buttonTextStyle"
+                    />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="150dp"
+                    android:background="@drawable/pinnawala"
+                    android:onClick="sabaragamuwaProvince"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/sabaragamuwa_province"
+                    android:text="@string/sabaragamuwa_province"
+                    style="@style/buttonTextStyle"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="150dp"
+                    android:background="@drawable/ambalangoda"
+                    android:onClick="southern_province"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/southern_province"
+                    android:text="@string/southern_province"
+                    style="@style/buttonTextStyle"/>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="150dp"
+                    android:background="@drawable/yapahuwa"
+                    android:onClick="northwesternProvince"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/north_western_province"
+                    android:text="@string/north_western_province"
+                    android:textSize="12dp"
+                    style="@style/buttonTextStyle"/>
+            </TableRow>
+            <TableRow
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="150dp"
+                    android:background="@drawable/sunset_over_lagoo"
+                    android:scaleType="fitXY"
+                    android:onClick="nothernProvince"
+                    android:contentDescription="@string/nothern_province"
+                    android:text="@string/nothern_province"
+                    style="@style/buttonTextStyle"
+                    />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="150dp"
+                    android:background="@drawable/baticlo"
+
+                    android:onClick="easternProvince"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/eastern_province"
+                    android:text="@string/eastern_province"
+                    style="@style/buttonTextStyle"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="200dp"
+                    android:background="@drawable/ninearch"
+                    android:scaleType="fitXY"
+                    android:onClick="uvaProvince"
+                    android:contentDescription="@string/uva_province"
+                    android:text="@string/uva_province"
+                    style="@style/buttonTextStyle"
+                    />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<ScrollView android:layout_width="match_parent"
+    android:background="@color/colorGrey"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        style="@style/ExploreTopic">
+
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/north_western_province"
+            style="@style/ExploreTopic"
+            android:gravity="center_horizontal"
+
+            />
+        <GridLayout
+            android:layout_below="@+id/topic"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnCount="1"
+            android:rowCount="2">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/button1"
+                android:background="@drawable/anawilundawa"
+
+                android:scaleType="fitXY"
+                android:onClick="anawilundawa"
+                />
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:id="@+id/button2"
+                android:background="@drawable/yapahuwa"
+
+
+                android:onClick="yapahuwa"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:id="@+id/button3"
+                android:background="@drawable/ridiviharaya"
+
+                android:scaleType="fitXY"
+                android:onClick="ridiviharaya"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:id="@+id/button4"
+                android:background="@drawable/kalpitiya"
+
+
+                android:scaleType="fitXY"
+                android:onClick="kalpitiya"/>
+
+        </GridLayout>
+    </RelativeLayout>
+</ScrollView>

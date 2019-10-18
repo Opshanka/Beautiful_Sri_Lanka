@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:background="@color/colorGrey"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        style="@style/ExploreTopic">
+
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eastern_province"
+            style="@style/ExploreTopic"
+            android:gravity="center_horizontal"
+
+            />
+        <GridLayout
+            android:layout_below="@+id/topic"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnCount="1"
+            android:rowCount="2">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/button1"
+                android:background="@drawable/kumana"
+
+                android:scaleType="fitXY"
+                android:onClick="kumanaDescription"
+                />
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+
+                android:id="@+id/button2"
+                android:background="@drawable/somawathiya"
+
+
+                android:onClick="somawathiyaDescription"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+
+                android:id="@+id/button3"
+                android:background="@drawable/nilaveli"
+
+                android:scaleType="fitXY"
+                android:onClick="nilaveliDescription"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+
+                android:id="@+id/button4"
+                android:background="@drawable/trincomalee"
+
+
+                android:scaleType="fitXY"
+                android:onClick="trincomaleeDescription"/>
+
+        </GridLayout>
+    </RelativeLayout>
+</ScrollView>

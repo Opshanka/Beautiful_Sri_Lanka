@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidopshanka.beautifulsrilanka">
+
+    <application
+
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.androidopshanka.beautifulsrilanka.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.ExploreActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.CentralProvinceActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.EasternProvinceActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.NorthernProvinceActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.SouthernProvinceActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.NorthWesternProvinceActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.NorthCentralProvinceActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.SabaragamuwaProvinceActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.UvaProvinceActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.PlaceDescriptActivity">
+        </activity>
+        <activity
+            android:name="com.androidopshanka.beautifulsrilanka.WesternProvinceActivity">
+        </activity>
+
+    </application>
+
+</manifest>

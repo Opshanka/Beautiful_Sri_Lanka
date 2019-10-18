@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Beautiful Sri Lanka</string>
+    <string name="explore">Explore</string>
+    <string name="btn_explore">Explore</string>
+    <string name="central_province">Central Province</string>
+    <string name="western_province">Western Province</string>
+    <string name="topicMainDes">Topic</string>
+    <string name="gangaramaya">Gangaramaya</string>
+    <string name="negambo">Negambo</string>
+    <string name="galleface">Galleface</string>
+    <string name="kalutharabodiya">Kalutharabodiya</string>
+    <string name="explore_provinces">Explore Provinces</string>
+    <string name="north_central_province">North Central Province</string>
+    <string name="north_western_province">North Western Province</string>
+    <string name="sabaragamuwa_province">Sabaragamuwa Province</string>
+    <string name="southern_province">Southern Province</string>
+    <string name="nothern_province">Nothern Province</string>
+    <string name="uva_province">Uva Province</string>
+    <string name="eastern_province">Eastern Province</string>
+</resources>
